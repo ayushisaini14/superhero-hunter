@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" id="root" color-scheme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Hunter</title>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/favorites.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="flex-row navbar">
+      <!-- Site Name -->
+      <div class="flex-row navbar-brand">
+        <a href="./index.html">
+          <span>Superhero Hunter</span>
+        </a>
+      </div>
+      <!-- Theme Button and Favourites Button -->
+      <div class="flex-row favAndTheme-btn">
+        <a class="flex-row link-to-different-page" href="./index.html">
+          <button class="btn fav-btn">Home</button>
+        </a>
+      </div>
+    </nav>
+
+    <div class="favourite-characters">
+      <div class="flex-row cards-container" id="container">
+        <!-- To display favourite elements -->
+      </div>
+    </div>
+
+    <script src="./js/favorites.js"></script>
+  </body>
+</html>
